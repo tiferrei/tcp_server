@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func buildTestServer() *server {
+func buildTestServer() *Server {
 	return New("localhost:9999")
 }
 
